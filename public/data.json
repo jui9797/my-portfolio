@@ -2,7 +2,7 @@
     {
         "id":1,
         "title": "E-Learning Website",
-        "image": "../src/assets/Screenshot 2025-01-05 021740.png",
+        "image": "./Screenshot 2025-01-05 021740.png",
         "technologies": ["React", "Node.js", "MongoDB", "CSS", "Express"],
         "livelink": "https://assignment-11-client-c292f.web.app",
         "githublink": "https://github.com/programming-hero-web-course2/b10a11-client-side-jui9797",
@@ -14,7 +14,7 @@
     {
         "id":2,
         "title": "A Burn House Project",
-        "image": "../src/assets/Screenshot 2025-01-05 020455.png",
+        "image": "./Screenshot 2025-01-05 020455.png",
         "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
         "livelink": "https://jui9797.github.io/b10-assignment3",
         "githublink": "https://github.com/jui9797/b10-assignment3",
@@ -26,7 +26,7 @@
     {
         "id":3,
         "title": "Pet Adoption",
-        "image": "../src/assets/Screenshot 2025-01-05 012459.png",
+        "image": "./Screenshot 2025-01-05 012459.png",
         "technologies":["HTML", "CSS", "JavaScript", "Tailwind CSS"],
         "livelink": "https://lighthearted-dolphin-cbf4ed.netlify.app",
         "githublink": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-jui9797?tab=readme-ov-file",
