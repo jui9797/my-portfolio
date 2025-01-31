@@ -57,7 +57,7 @@ const Banner = () => {
 
                             <div className=''>
                                 <button className=" px-1 py-2 lg:px-6 lg:py-3 bg-blue-500 text-white rounded-md font-semibold hover:bg-blue-600 transition-all flex items-center gap-2 shadow-md"><a 
-                                className='flex items-center gap-2' href="/RESUME.pdf" target='blank' ><FaDownload /> Download Resume</a></button>
+                                className='flex items-center gap-2' href="https://drive.google.com/file/d/16obTozJH5imugvk9XRAdjgYc2P_UDYts/view?usp=sharing" target='blank' ><FaDownload /> Download Resume</a></button>
                                 
 
 
