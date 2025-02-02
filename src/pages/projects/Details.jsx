@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import  { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 
 const Details = () => {
     const { id } = useParams();
@@ -28,7 +28,7 @@ const Details = () => {
 
 
     return (
-        <div className="p-10">
+        <div className="p-10 dark:text-gray-300">
             <h2 className='text-xl font-bold mb-2'>Projects Details:</h2>
             {currentCard ? (
                 <div>
@@ -37,7 +37,7 @@ const Details = () => {
                     <h3><span className='font-bold'>Technologies: </span> {
                         currentCard.technologies.map(item=><p key={currentCard.id}>{item}</p>)
                         }</h3>
-                        <h3><span className='font-bold'>Github: </span>{currentCard.githublink}</h3>
+                        <h3><span className='font-bold'>Github: </span><a target='_blank' href={currentCard.githublink}>Github-link</a></h3>
                         <h3><span className='font-bold'>Live: </span>{currentCard.livelink}</h3>
                     <h3><span className='font-bold'>Improvement: </span>Need to update design part.</h3>
                 </div>

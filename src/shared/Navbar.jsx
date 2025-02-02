@@ -7,7 +7,7 @@ const Navbar = () => {
     const links =<>
     <NavLink to='/'>Home</NavLink>
     <NavLink to='/projects'>Projects</NavLink>
-    <a href='#contact'>Contact</a>
+   
     
     </>
     return (

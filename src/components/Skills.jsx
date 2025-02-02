@@ -17,7 +17,7 @@ const Skills = () => {
                             <h3 className="text-2xl font-semibold text-blue-500">Frontend</h3>
                             <div className="space-y-4 mt-4">
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">HTML</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">HTML</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div
                                             className="bg-[#f88075] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4"
@@ -27,19 +27,19 @@ const Skills = () => {
                                 </div>
 
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">CSS</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">CSS</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#f88075] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '85%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">JavaScript</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">JavaScript</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#f88075] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '80%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">React</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">React</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#f88075] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '75%' }}></div>
                                     </div>
@@ -51,19 +51,19 @@ const Skills = () => {
                             <h3 className="text-2xl font-semibold text-blue-500">Backend</h3>
                             <div className="space-y-4 mt-4">
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">Node.js</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">Node.js</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#716b8f] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '70%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">Express.js</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">Express.js</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#716b8f] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '65%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">MongoDB</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">MongoDB</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#716b8f] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '60%' }}></div>
                                     </div>
@@ -75,19 +75,19 @@ const Skills = () => {
                             <h3 className="text-2xl font-semibold text-blue-500">Tools</h3>
                             <div className="space-y-4 mt-4">
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">Git</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">Git</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#f8c059] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '80%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">Docker</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">Docker</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#f8c059] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '50%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">VS Code</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">VS Code</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#f8c059] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '95%' }}></div>
                                     </div>
@@ -99,19 +99,19 @@ const Skills = () => {
                             <h3 className="text-2xl font-semibold text-blue-500">Frameworks & CSS Libraries</h3>
                             <div className="space-y-4 mt-4">
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">Tailwind.css</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">Tailwind.css</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#20b2aa] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '90%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">Daisy.ui</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">Daisy.ui</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#20b2aa] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '85%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
-                                    <p className="font-medium text-gray-600">Mamba.ui</p>
+                                    <p className="font-medium text-gray-600 dark:text-gray-300">Mamba.ui</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
                                         <div className="bg-[#20b2aa] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '75%' }}></div>
                                     </div>
