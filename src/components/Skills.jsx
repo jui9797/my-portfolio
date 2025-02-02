@@ -6,7 +6,7 @@ const Skills = () => {
 
 
 
-            <section id="skills" className="py-10 px-5 lg:px-20 bg-gray-100 text-gray-800">
+            <section id="skills" className="py-10 px-5 lg:px-20 bg-gray-100 dark:bg-transparent text-gray-800">
                 <div className="container mx-auto">
                     <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-blue-600">
                         My Skills
@@ -53,19 +53,19 @@ const Skills = () => {
                                 <div className="group">
                                     <p className="font-medium text-gray-600">Node.js</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
-                                        <div className="bg-[#181527] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '70%' }}></div>
+                                        <div className="bg-[#716b8f] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '70%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
                                     <p className="font-medium text-gray-600">Express.js</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
-                                        <div className="bg-[#181527] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '65%' }}></div>
+                                        <div className="bg-[#716b8f] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '65%' }}></div>
                                     </div>
                                 </div>
                                 <div className="group">
                                     <p className="font-medium text-gray-600">MongoDB</p>
                                     <div className="bg-gray-200 rounded-full h-2.5">
-                                        <div className="bg-[#181527] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '60%' }}></div>
+                                        <div className="bg-[#716b8f] h-2.5 rounded-full transition-transform duration-300 group-hover:translate-x-4" style={{ width: '60%' }}></div>
                                     </div>
                                 </div>
                             </div>

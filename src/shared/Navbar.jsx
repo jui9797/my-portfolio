@@ -1,14 +1,17 @@
-import React from 'react';
+
 import { NavLink } from 'react-router-dom';
+import ThemeToggle from '../hooks/ThemeToggle';
 
 const Navbar = () => {
+    
     const links =<>
     <NavLink to='/'>Home</NavLink>
     <NavLink to='/projects'>Projects</NavLink>
+    <a href='#contact'>Contact</a>
     
     </>
     return (
-        <div className=''>
+        <div className='border-b-2 shadow-lg'>
             <div className="navbar">
                 <div className="navbar-start lg:pl-16">
                     <div className="dropdown">
@@ -32,7 +35,10 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <p className='custom text-2xl font-bold text-blue-600'>Jannat</p>
+                   
+                    <p className='custom text-2xl font-bold text-blue-600'>JUIENA</p>
+                    {/* theme button */}
+                    <ThemeToggle></ThemeToggle>
                 </div>
                 <div className="navbar-end hidden lg:flex lg:pr-16">
                     <ul className="menu menu-horizontal px-1 space-x-4 text-blue-600">
