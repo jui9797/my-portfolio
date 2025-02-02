@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 const Card = ({ card }) => {
@@ -23,7 +23,7 @@ const Card = ({ card }) => {
               <span className="relative z-10"><Link to={`/projects/${card.id}`}>Details</Link></span>
             </button>
             <button className="relative flex h-[50px] w-16 items-center justify-center overflow-hidden bg-blue-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-blue-600 hover:shadow-blue-600 hover:before:border-[25px]">
-              <span className="relative z-10"><Link to={card.livelink}>Live</Link></span>
+              <span className="relative z-10"><Link target='_blank' to={card.livelink}>Live</Link></span>
             </button>
           </div>
 

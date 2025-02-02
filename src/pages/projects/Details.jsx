@@ -1,5 +1,5 @@
 import  { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const Details = () => {
     const { id } = useParams();
@@ -29,7 +29,7 @@ const Details = () => {
 
     return (
         <div className="p-10 dark:text-gray-300">
-            <h2 className='text-xl font-bold mb-2'>Projects Details:</h2>
+            <h2 className='text-xl font-bold mb-2 text-blue-600'>Projects Details:</h2>
             {currentCard ? (
                 <div>
                     <h3><span className='font-bold'>Title: </span> {currentCard.title}</h3>
@@ -37,9 +37,9 @@ const Details = () => {
                     <h3><span className='font-bold'>Technologies: </span> {
                         currentCard.technologies.map(item=><p key={currentCard.id}>{item}</p>)
                         }</h3>
-                        <h3><span className='font-bold'>Github: </span><a target='_blank' href={currentCard.githublink}>Github-link</a></h3>
-                        <h3><span className='font-bold'>Live: </span>{currentCard.livelink}</h3>
-                    <h3><span className='font-bold'>Improvement: </span>Need to update design part.</h3>
+                        <h3><a className='font-bold text-blue-500' target='_blank' href={currentCard.githublink}>Github-link</a></h3>
+                        <h3><a className='font-bold text-blue-500'target='_blank' href={currentCard.livelink}>Live</a></h3>
+                    <h3><span className='font-bold'>Improvement: </span>{currentCard.update}</h3>
                 </div>
             ) : (
                 <p>Loading...</p>
