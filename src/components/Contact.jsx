@@ -16,6 +16,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        const form2 = e.target
     
         emailjs
           .sendForm('service_6seqxf5', 'template_117ppvc', form.current, {
@@ -24,6 +25,7 @@ const Contact = () => {
           .then(
             () => {
               console.log('SUCCESS!');
+              form2.reset();
             },
             (error) => {
               console.log('FAILED...', error.text);
