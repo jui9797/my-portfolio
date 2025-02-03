@@ -31,7 +31,7 @@ const ProjectsCard = () => {
             <p className='flex text-blue-600 font-bold lg:hidden'>projects</p>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                 {
-                    cards.map((card, index) => <Card key={index} card={card}></Card>)
+                    cards.map((card, index) => <Card key={index+1} card={card}></Card>)
                 }
             </div>
         </div>

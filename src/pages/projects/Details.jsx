@@ -6,7 +6,7 @@ const Details = () => {
     const projectId = parseInt(id);
     // console.log(projectId);
 
-    const [cards, setCards] = useState([]);
+    // const [cards, setCards] = useState([]);
     const [currentCard, setCurrentCard] = useState(null);
 
     useEffect(() => {
@@ -15,7 +15,7 @@ const Details = () => {
             .then((res) => res.json())
             .then((data) => {
                 // console.log(data);
-                setCards(data);
+                // setCards(data);
 
 
                 const card = data.find((item) => item.id === projectId);
@@ -35,7 +35,7 @@ const Details = () => {
                     <h3><span className='font-bold'>Title: </span> {currentCard.title}</h3>
                     <p><span className='font-bold'>Description: </span> {currentCard.description}</p>
                     <h3><span className='font-bold'>Technologies: </span> {
-                        currentCard.technologies.map(item=><p key={currentCard.id}>{item}</p>)
+                        currentCard.technologies.map((item, idx)=><p key={idx+2}>{item}</p>)
                         }</h3>
                         <h3><a className='font-bold text-blue-500' target='_blank' href={currentCard.githublink}>Github-link</a></h3>
                         <h3><a className='font-bold text-blue-500'target='_blank' href={currentCard.livelink}>Live</a></h3>
