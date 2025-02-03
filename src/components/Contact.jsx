@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import {  FaFacebookSquare, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from "react-icons/md";
 import { FaHome } from "react-icons/fa";
@@ -18,8 +18,8 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs
-          .sendForm(import.meta.env.VITE_serviceId, import.meta.env.VITE_templateId, form.current, {
-            publicKey: import.meta.env.VITE_publicKey,
+          .sendForm('service_6seqxf5', 'template_117ppvc', form.current, {
+            publicKey: 'lsuXb9u_-Psqs3XFf',
           })
           .then(
             () => {
