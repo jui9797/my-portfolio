@@ -5,6 +5,7 @@ import { FaHome } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 
 
@@ -25,6 +26,23 @@ const Contact = () => {
           .then(
             () => {
               console.log('SUCCESS!');
+              Swal.fire({
+                title: "Custom animation with Animate.css",
+                showClass: {
+                  popup: `
+                    animate__animated
+                    animate__fadeInUp
+                    animate__faster
+                  `
+                },
+                hideClass: {
+                  popup: `
+                    animate__animated
+                    animate__fadeOutDown
+                    animate__faster
+                  `
+                }
+              });
               form2.reset();
             },
             (error) => {
