@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className='flex flex-col lg:flex-row gap-5'>
                     {/* Contact Form */}
                 <div className="flex justify-center w-full lg:w-2/3 ">
-                    <form ref={form} onSubmit={sendEmail} className=" p-3 rounded-lg shadow-lg  w-full space-y-6 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+                    <form ref={form} onSubmit={sendEmail} className=" p-8 rounded-lg shadow-lg  w-full space-y-6 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
                         <h3 className="text-2xl font-semibold text-blue-500 mb-4">Send us a Message</h3>
                         <div>
                             <label htmlFor="text" className="block text-sm font-medium text-gray-600 dark:text-gray-300">Your Name</label>
