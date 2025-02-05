@@ -27,7 +27,7 @@ const Contact = () => {
             () => {
               console.log('SUCCESS!');
               Swal.fire({
-                title: "Custom animation with Animate.css",
+                title: "Thanks for messaging me.",
                 showClass: {
                   popup: `
                     animate__animated
@@ -56,11 +56,11 @@ const Contact = () => {
             <div className="container mx-auto">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-blue-600">Contact Information</h2>
 
-                <div className='flex flex-col lg:flex-row gap-5'>
+                <div className='flex flex-col lg:flex-row gap-10'>
                     {/* Contact Form */}
                 <div className="flex justify-center w-full lg:w-2/3 ">
                     <form ref={form} onSubmit={sendEmail} className=" p-8 rounded-lg shadow-lg  w-full space-y-6 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
-                        <h3 className="text-2xl font-semibold text-blue-500 mb-4">Send us a Message</h3>
+                        <h3 className="text-2xl font-semibold text-blue-500 mb-4">Send me a Message</h3>
                         <div>
                             <label htmlFor="text" className="block text-sm font-medium text-gray-600 dark:text-gray-300">Your Name</label>
                             <input
@@ -125,7 +125,7 @@ const Contact = () => {
                         <h4 className="font-semibold text-blue-500 flex gap-2 items-center ">WhatsApp <FaWhatsapp /></h4>
                         <p className="mt-2 text-gray-600 text-xs dark:text-gray-300">+8801705910832</p>
                     </div>
-                    <h2 className='dark:text-gray-300'>Follow Me</h2>
+                    <h2 className='dark:text-gray-300 text-gray-600 font-bold pt-12'>Follow Me</h2>
                     <div className='flex flex-row justify-between '>
                             <div className='flex gap-4 lg:gap-6 items-center'>
                                 <a
