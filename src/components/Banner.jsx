@@ -2,6 +2,10 @@ import { useEffect } from "react";
 import { FaLinkedin, FaGithub, FaFacebookSquare, FaDownload } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import profileImg from '../assets/portfolio-img.png'
+import { motion } from "framer-motion";
+import  './Banner.css'
+
 
 const Banner = () => {
     useEffect(() => {
@@ -14,9 +18,9 @@ const Banner = () => {
 
     return (
         <div>
-            <div data-aos="zoom-in" className="hero sm:h-full md:h-[400px] lg:h-[500px] mb-10 ">
-                <div className="hero-content text-center">
-                    <div className="max-w-lg">
+            <div data-aos="zoom-in" className="hero sm:h-full  lg:h-[500px] mb-10">
+                <div className="hero-content text-center flex flex-col lg:flex-row lg:gap-20">
+                    <div className="max-w-lg ">
                         <h1 className="p-4 text-3xl lg:text-5xl font-bold text-light-text dark:text-dark-text">
                             Welcome! I’m Juiena.P.
                         </h1>
@@ -62,6 +66,27 @@ const Banner = () => {
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    {/* img */}
+                    <div className=" w-[200px] h-[200px] lg:w-[300px] lg:h-[300px]">
+                        <motion.img
+                            src={profileImg}
+                            alt="profile"
+                            className="w-full h-full rounded-full "
+                            animate={{
+                                y: [0, -10, 0, 10, 0], // Up & Down motion
+                            }}
+                            transition={{
+                                duration: 3,
+                                repeat: Infinity,
+                                repeatType: "loop",
+                                ease: "easeInOut",
+                            }}
+                        />
+
+
+
+                        {/* <img className="rounded-2xl w-full h-full" src={profileImg} alt="profile" /> */}
                     </div>
                 </div>
             </div>

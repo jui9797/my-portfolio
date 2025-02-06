@@ -18,7 +18,7 @@ useEffect(() => {
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-            <section id="about" className="py-10 px-5 lg:px-20  text-gray-800">
+            <section id="about" className="py-6 px-5 lg:px-20  text-gray-800">
                 <div className="container mx-auto">
                     <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-blue-600">
                         About Me

@@ -7,7 +7,10 @@ const Navbar = () => {
     const links =<>
     <NavLink to='/'>Home</NavLink>
     <NavLink to='/projects'>Projects</NavLink>
-   
+   <a href="#about">About</a>
+   <a href="#skills">Skills</a>
+   <a href="#education">Education</a>
+   <a href="#contact">Contact</a>
     
     </>
     return (
