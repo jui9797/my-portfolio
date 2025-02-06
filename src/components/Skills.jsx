@@ -18,14 +18,14 @@ const Skills = () => {
 
 
 
-            <section id="skills" className="py-10 px-5 lg:px-20 bg-gray-100 dark:bg-transparent text-gray-800">
+            <section id="skills" className="py-10 px-5 lg:px-20 bg-gray-50 dark:bg-transparent text-gray-800">
                 <div className="container mx-auto">
                     <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-blue-600">
                         My Skills
                     </h2>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -42,7 +42,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -59,7 +59,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -76,7 +76,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -93,7 +93,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -110,7 +110,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -122,12 +122,12 @@ const Skills = () => {
                                 />
                             </svg>
                             <div className="inner">
-                                <img className='w-16 h-16 m-4' src={exImg} alt="" />
+                                <img className='w-16 h-16 m-4 dark:bg-gray-200' src={exImg} alt="" />
                                 <h3 className='text-center font-bold'>Expess.js</h3>
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -144,7 +144,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -161,7 +161,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -178,7 +178,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -195,7 +195,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -212,7 +212,7 @@ const Skills = () => {
 
                             </div>
                         </div>
-                        <div className="card example-5 justify-center items-center flex-col">
+                        <div className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200 ">
                             <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                                 <rect
                                     rx="8"
@@ -224,7 +224,7 @@ const Skills = () => {
                                 />
                             </svg>
                             <div className="inner">
-                                <img className='w-16 h-16 m-4' src={githubImg} alt="" />
+                                <img className='w-16 h-16 m-4 dark:bg-gray-200' src={githubImg} alt="" />
                                 <h3 className='text-center font-bold'>Github</h3>
 
                             </div>

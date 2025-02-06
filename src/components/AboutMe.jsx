@@ -23,7 +23,7 @@ useEffect(() => {
                     <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-blue-600">
                         About Me
                     </h2>
-                    <div className="flex flex-col lg:flex-row items-center gap-10">
+                    <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-10">
                         {/* Image Section */}
                         <div style={{ width: 300, height: 300 }}>
                         <Lottie animationData={aboutMe}></Lottie>
@@ -33,10 +33,11 @@ useEffect(() => {
                         <div className="w-full lg:w-2/3 text-lg leading-relaxed text-gray-600">
                             <p className='dark:text-gray-300'>
                                 Hi! I’m <span className="font-semibold text-blue-600">Jannat</span>.
-                                I am a passionate <span className="font-semibold text-blue-600">Junior Web Developer</span>,
-                                always striving to learn and grow. My journey in programming began when I discovered my love for solving
-                                problems and creating innovative solutions. Over the years, I have honed my skills in
-                                <span className="font-semibold text-blue-600">JavaScript, React, Node.js, MongoDB </span>etc.
+                                I am a Energetic <span className="font-semibold text-blue-600">Junior Web Developer</span>,
+                                always striving to learn and grow. My journey in programming began when I discovered my love for making
+                                websites and creating innovative solutions. Over the years , I have honed my skills in
+
+                                <span className="font-semibold text-blue-600"> JavaScript, React, Node.js, MongoDB </span>etc.
                             </p>
                             <p className="mt-4 dark:text-gray-300">
                                 Beyond programming, I enjoy <span className="font-semibold text-blue-600">Travelling,  Painting, Reading Books</span>.

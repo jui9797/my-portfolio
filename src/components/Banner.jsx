@@ -19,7 +19,7 @@ const Banner = () => {
     return (
         <div>
             <div data-aos="zoom-in" className="hero sm:h-full  lg:h-[500px] mb-10">
-                <div className="hero-content text-center flex flex-col lg:flex-row lg:gap-20">
+                <div className="hero-content text-center flex flex-col lg:flex-row lg:gap-28">
                     <div className="max-w-lg ">
                         <h1 className="p-4 text-3xl lg:text-5xl font-bold text-light-text dark:text-dark-text">
                             Welcome! I’m Juiena.P.
@@ -33,7 +33,7 @@ const Banner = () => {
                                     href="https://www.linkedin.com/in/jannat-chowdhury-529105310"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-xl lg:text-3xl text-blue-600 hover:text-blue-800 dark:text-dark-secondary transition"
+                                    className="text-xl md:text-3xl lg:text-4xl text-blue-600 hover:text-blue-800 dark:text-dark-secondary transition"
                                 >
                                     <FaLinkedin />
                                 </a>
@@ -41,7 +41,7 @@ const Banner = () => {
                                     href="https://github.com/jui9797"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-xl lg:text-3xl text-gray-800 hover:text-black dark:text-dark-secondary transition"
+                                    className="text-xl md:text-3xl lg:text-4xl text-gray-800 hover:text-black dark:text-dark-secondary transition"
                                 >
                                     <FaGithub />
                                 </a>
@@ -49,7 +49,7 @@ const Banner = () => {
                                     href="https://www.facebook.com/profile.php?id=100055737878584"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-xl lg:text-3xl text-blue-500 hover:text-blue-700 dark:text-dark-secondary transition"
+                                    className="text-xl md:text-3xl lg:text-4xl text-blue-500 hover:text-blue-700 dark:text-dark-secondary transition"
                                 >
                                     <FaFacebookSquare />
                                 </a>
@@ -72,7 +72,7 @@ const Banner = () => {
                         <motion.img
                             src={profileImg}
                             alt="profile"
-                            className="w-full h-full rounded-full "
+                            className="w-full h-full rounded-full hover:border-2 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500"
                             animate={{
                                 y: [0, -10, 0, 10, 0], // Up & Down motion
                             }}
@@ -86,7 +86,7 @@ const Banner = () => {
 
 
 
-                        {/* <img className="rounded-2xl w-full h-full" src={profileImg} alt="profile" /> */}
+                        
                     </div>
                 </div>
             </div>

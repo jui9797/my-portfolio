@@ -13,11 +13,11 @@ const ProjectsCard = () => {
             });
     }, []);
     return (
-        <div className='my-5 lg:my-20 py-10'>
+        <div id='projects' className='my-5 lg:my-20 py-10'>
             <h2 className='hidden lg:flex text-xl lg:text-4xl text-center text-blue-500 font-bold my-4'>
-                <span className="text-blue-500">
+                <span className="text-blue-500 text-center mb-4">
                     <Typewriter
-                        words={["My Projects"]}
+                        words={["My Exclusive Projects"]}
                         loop={Infinity}
                         cursor
                         cursorStyle="_"

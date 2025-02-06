@@ -10,7 +10,8 @@
         "date": "2024-06-15",
         "author": "Jannat",
         "category": "Web Development",
-        "update": "Need to update design Part"
+        "update": "Need to update design Part",
+        "FuturePlan": "In future I can try to make is ATS friendly."
     },
     {
         "id":2,
@@ -23,7 +24,8 @@
         "date": "2024-01-22",
         "author": "Jannat",
         "category": "Frontend Development",
-         "update": "This is frontend based project , need to make server for this project."
+        "update": "This is frontend based project , need to make server for this project.",
+        "FuturePlan": "In future I should make this website full responsive , userfriendly, also connect with database."
     },
     {
         "id":3,
@@ -36,6 +38,7 @@
         "date": "2024-08-10",
         "author": "Jannat",
         "category": "Frontend Development",
-        "update": "This is frontend based project , need to make server for this project."
+        "update": "This is frontend based project , need to make server for this project.",
+        "FuturePlan": "In future I should make this website full responsive , userfriendly, also connect with database."
     }
 ]

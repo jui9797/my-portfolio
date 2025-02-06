@@ -6,7 +6,7 @@ const Navbar = () => {
     
     const links =<>
     <NavLink to='/'>Home</NavLink>
-    <NavLink to='/projects'>Projects</NavLink>
+    <a href='#projects'>Projects</a>
    <a href="#about">About</a>
    <a href="#skills">Skills</a>
    <a href="#education">Education</a>
@@ -14,7 +14,7 @@ const Navbar = () => {
     
     </>
     return (
-        <div className='border-b-2 shadow-lg'>
+        <div className=''>
             <div className="navbar">
                 <div className="navbar-start lg:pl-16">
                     <div className="dropdown">
