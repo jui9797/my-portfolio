@@ -38,7 +38,7 @@ const Details = () => {
                         currentCard.technologies.map((item, idx)=><p key={idx+2}>{item}</p>)
                         }</h3>
                         <h3 className='font-bold'>Links:</h3>
-                        <div className='flex'>
+                        <div className='flex gap-4'>
                         <h3><a className='font-bold text-blue-500' target='_blank' href={currentCard?.githublink}>Github-link</a></h3>
                         <h3><a className='font-bold text-blue-500'target='_blank' href={currentCard?.livelink}>Live</a></h3>
                         </div>
