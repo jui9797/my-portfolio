@@ -191,7 +191,7 @@ const Skills = () => {
                             </svg>
                             <div className="inner">
                                 <img className='w-16 h-16 m-4' src={vsImg} alt="" />
-                                <h3 className='text-center font-bold'>Visual stdio Code</h3>
+                                <h3 className='text-center font-bold'>Visual Stdio Code</h3>
 
                             </div>
                         </div>
