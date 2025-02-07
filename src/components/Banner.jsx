@@ -57,7 +57,7 @@ const Banner = () => {
 
                             <div className="flex justify-center">
                                 <a
-                                    href="https://drive.google.com/file/d/16obTozJH5imugvk9XRAdjgYc2P_UDYts/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1lk9cYtheGhq0rKkflpyBcS26bGcBuge1/view?usp=sharing"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 bg-blue-500 text-white dark:bg-transparent dark:border-2 dark:text-gray-300 rounded-md font-semibold  transition-all shadow-md"
