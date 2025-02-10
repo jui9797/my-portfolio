@@ -68,11 +68,11 @@ const Banner = () => {
                         </div>
                     </div>
                     {/* img */}
-                    <div className=" w-[200px] h-[200px] lg:w-[300px] lg:h-[300px]">
+                    <div className="">
                         <motion.img
                             src={profileImg}
                             alt="profile"
-                            className="w-full h-full rounded-full hover:border-2 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500"
+                            className=" rounded-full hover:border-2 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500"
                             animate={{
                                 y: [0, -10, 0, 10, 0], // Up & Down motion
                             }}
