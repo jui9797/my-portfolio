@@ -27,7 +27,7 @@ useEffect(() => {
                             </div>
                             <div data-aos="zoom-in" className="timeline-start mb-10 md:text-end shadow-xl p-2">
                                 <time className="font-mono text-gray-600 italic dark:text-gray-200">2025</time>
-                                <div className="text-lg font-black"><h3  className="text-xl lg:text-2xl font-semibold text-blue-500">Bachelor of Science in Physics(BSC)</h3></div>
+                                <div className="text-lg font-black"><h3  className="text-xl lg:text-2xl font-bold text-gray-500 dark:text-white">Bachelor of Science in Physics(BSC)</h3></div>
                                 <p className="mt-2 font-medium text-gray-600 dark:text-gray-200">Institution: <span className="text-blue-600">Naogaon Gov’t College</span></p>
                                 <p className="mt-2 font-medium text-gray-600 dark:text-gray-200">Year: <span className="text-blue-600">2019 - 2024</span></p>
                                 <p className="mt-2 font-medium text-gray-600 dark:text-gray-200">Result: <span className="text-blue-600">CGPA: 3.80/4.00</span></p>
@@ -41,7 +41,7 @@ useEffect(() => {
                             </div>
                             <div data-aos="zoom-in" className="timeline-end md:mb-10 shadow-xl p-2">
                                 <time className="font-mono text-gray-600 italic dark:text-gray-200">2018</time>
-                                <div className="text-lg font-black"><h3 className="text-xl lg:text-2xl font-semibold text-blue-500">Higher Secondary Certificate (HSC)</h3></div>
+                                <div className="text-lg font-black"><h3 className="text-xl lg:text-2xl font-bold text-gray-500 dark:text-white">Higher Secondary Certificate (HSC)</h3></div>
                                 <p className="mt-2 font-medium text-gray-600 dark:text-gray-200">Institution: <span className="text-blue-600">Naogaon Gov’t College</span></p>
                                 <p className="mt-2 font-medium text-gray-600 dark:text-gray-200">
                                 Board: <span className="text-blue-600">Rajshahi Education Board</span>
@@ -59,7 +59,7 @@ useEffect(() => {
                             </div>
                             <div data-aos="zoom-in" className="timeline-start mb-10 md:text-end shadow-xl p-2">
                                 <time className="font-mono text-gray-600 italic dark:text-gray-200">2016</time>
-                                <div className="text-lg font-black"><h3 className="text-xl lg:text-2xl font-semibold text-blue-500"> Secondary School Certificate (SSC)</h3></div>
+                                <div className="text-lg font-black"><h3 className="text-xl lg:text-2xl font-bold text-gray-500 dark:text-white"> Secondary School Certificate (SSC)</h3></div>
                                 <p className="mt-2 font-medium text-gray-600 dark:text-gray-200">Institution: <span className="text-blue-600">Naogaon Gov’t Girls High School</span></p>
                                 <p className="mt-2 font-medium text-gray-600 dark:text-gray-200">
                                 Board: <span className="text-blue-600">Rajshahi Education Board</span>

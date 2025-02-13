@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { FaLinkedin, FaGithub, FaFacebookSquare, FaDownload } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import profileImg from '../assets/portfolio-img.png'
-import { motion } from "framer-motion";
+// import profileImg from '../assets/portfolio-img.png'
+// import { motion } from "framer-motion";
 import  './Banner.css'
 
 
@@ -68,13 +68,13 @@ const Banner = () => {
                         </div>
                     </div>
                     {/* img */}
-                    <div className="">
+                    {/* <div className="">
                         <motion.img
                             src={profileImg}
                             alt="profile"
                             className=" rounded-full hover:border-2 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500"
                             animate={{
-                                y: [0, -10, 0, 10, 0], // Up & Down motion
+                                y: [0, -10, 0, 10, 0],
                             }}
                             transition={{
                                 duration: 3,
@@ -87,7 +87,7 @@ const Banner = () => {
 
 
                         
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
