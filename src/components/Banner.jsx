@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import { FaLinkedin, FaGithub, FaFacebookSquare, FaDownload } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFacebookSquare } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import profileImg from '../assets/portfolio-img.png'
 // import { motion } from "framer-motion";
 import  './Banner.css'
+import { CiViewList } from "react-icons/ci";
 
 
 const Banner = () => {
@@ -57,12 +58,12 @@ const Banner = () => {
 
                             <div className="flex justify-center">
                                 <a
-                                    href="https://docs.google.com/document/d/1agV2qec7nH_E25E03rWb-VCN6txhoKLqUVU6YdSvUgM/export?format=pdf"
+                                    href="https://drive.google.com/file/d/1oVcq5cM1KjVo70EUve_3TquNVGmUGZah/view?usp=sharing"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 bg-blue-500 text-white dark:bg-transparent dark:border-2 dark:text-gray-300 rounded-md font-semibold  transition-all shadow-md"
                                 >
-                                    <FaDownload /> Download Resume
+                                  <span className="text-xl font-bold"><CiViewList /></span> View Resume
                                 </a>
                             </div>
                         </div>
