@@ -129,7 +129,7 @@ const Contact = () => {
                     <div className='flex flex-row justify-between '>
                             <div className='flex gap-4 lg:gap-6 items-center'>
                                 <a
-                                    href="https://www.linkedin.com/in/jannat-chowdhury-529105310"
+                                    href="https://www.linkedin.com/in/juiena-parvin-529105310/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-xl lg:text-3xl text-blue-600 hover:text-blue-800 transition"
