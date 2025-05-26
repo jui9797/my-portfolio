@@ -30,7 +30,7 @@ const Banner = () => {
                         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                             <div className="flex gap-4 lg:gap-6">
                                 <a
-                                    href="https://www.linkedin.com/in/jannat-chowdhury-529105310"
+                                    href="https://www.linkedin.com/in/juiena-parvin-529105310/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-xl md:text-3xl lg:text-4xl text-blue-600 hover:text-blue-800 dark:text-dark-secondary transition"
