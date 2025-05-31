@@ -1,46 +1,70 @@
 [
-    {
-        "id":1,
-        "title": "StudyHive",
-        "image": "./Screenshot 2025-01-05 021740.png",
-        "technologies": ["React", "Node.js", "MongoDB", "CSS", "Express"],
-        "livelink": "https://assignment-11-client-c292f.web.app",
-        "githublink": "https://github.com/jui9797/study-hive-client",
-        "description": "Welcome to StudyHive – Revolutionizing Collaborative Learning! Education is better together. At StudyHive, we bring students from all over the world into a single, interactive space where they can learn, share knowledge, and grow as a team. Whether you’re preparing for exams, tackling assignments, or simply exploring new subjects, our platform is designed to make group study effective, engaging, and fun.At  StudyHive, we believe that education thrives in a collaborative environment. By fostering teamwork, communication, and shared learning, we aim to empower students to achieve more together than they ever could alone.",
-        "date": "2024-06-15",
-        "author": "Juiena",
-        "category": "Web Development",
-        "update": "Need to update design Part",
-        "FuturePlan": "In future I can try to make is ATS friendly."
-    },
-    {
-        "id":2,
-        "title": "Trendify",
-        "image": "./Screenshot 2025-02-07 035617.png",
-        "technologies": ["React", "Node.js", "MongoDB", "CSS", "Express"],
-        "livelink": "https://trendify-57be1.web.app",
-        "githublink": "https://github.com/jui9797/newspaper-project",
-        "description": "This is a full-stack Newspaper Aggregation Website where users can read, publish, and manage articles. Admins have exclusive controls to oversee the platform, including approving or declining articles, managing users, and setting premium features. The project includes a user-friendly interface and ensures robust functionality with authentication, secure routes, and responsive design.",
-        "date": "2024-06-15",
-        "author": "Juiena",
-        "category": "Full-stack Project",
-        "update": "Need to update design Part",
-        "FuturePlan": "In future I can try to make is eye-catching and make it responsive for better user experience.."
-    },
-    {
-        "id":3,
-        "title": "Pet Adoption",
-        "image": "./Screenshot 2025-01-05 012459.png",
-        "technologies":["HTML", "CSS", "JavaScript", "Tailwind CSS"],
-        "livelink": "https://lighthearted-dolphin-cbf4ed.netlify.app",
-        "githublink": "https://github.com/jui9797/pet-adoption",
-        "description": "Every year, thousands of animals find themselves in shelters, longing for a safe and loving home. Our mission is to bridge the gap between compassionate individuals like you and pets in need. With an extensive database of adoptable animals, our website makes it easier than ever to find your new best friend.We believe in creating a transparent and supportive adoption experience. Our team collaborates with trusted shelters and rescue organizations to ensure every pet listed on our site is healthy, well-cared-for, and ready for adoption.At Pet Adoption, we also provide resources to support pet parents throughout their journey. From training tips to health care advice, we’re here to help you build a loving bond with your new furry family member.",
-        "date": "2024-08-10",
-        "author": "Juiena",
-        "category": "Frontend Development",
-        "update": "This is frontend based project , need to make server for this project.",
-        "FuturePlan": "In future I should make this website full responsive , userfriendly, also connect with database."
-    }
-    
-    
+  {
+    "id": 1,
+    "title": "StudyHive",
+    "image": "./Screenshot 2025-01-05 021740.png",
+    "technologies": ["React", "Node.js", "MongoDB", "CSS", "Express"],
+    "livelink": "https://assignment-11-client-c292f.web.app",
+    "githublink": "https://github.com/jui9797/study-hive-client",
+    "description": "Welcome to StudyHive – Revolutionizing Collaborative Learning! Education is better together. At StudyHive, we bring students from all over the world into a single, interactive space where they can learn, share knowledge, and grow as a team. Whether you’re preparing for exams, tackling assignments, or simply exploring new subjects, our platform is designed to make group study effective, engaging, and fun.At  StudyHive, we believe that education thrives in a collaborative environment. By fostering teamwork, communication, and shared learning, we aim to empower students to achieve more together than they ever could alone.",
+    "date": "2024-06-15",
+    "author": "Juiena",
+    "category": "Web Development",
+    "update": "Need to update design Part",
+    "FuturePlan": "In future I can try to make is ATS friendly."
+  },
+  {
+    "id": 2,
+    "title": "Trendify",
+    "image": "./Screenshot 2025-02-07 035617.png",
+    "technologies": ["React", "Node.js", "MongoDB", "CSS", "Express"],
+    "livelink": "https://trendify-57be1.web.app",
+    "githublink": "https://github.com/jui9797/newspaper-project",
+    "description": "This is a full-stack Newspaper Aggregation Website where users can read, publish, and manage articles. Admins have exclusive controls to oversee the platform, including approving or declining articles, managing users, and setting premium features. The project includes a user-friendly interface and ensures robust functionality with authentication, secure routes, and responsive design.",
+    "date": "2024-06-15",
+    "author": "Juiena",
+    "category": "Full-stack Project",
+    "update": "Need to update design Part",
+    "FuturePlan": "In future I can try to make is eye-catching and make it responsive for better user experience.."
+  },
+  {
+    "id": 3,
+    "title": "Pet Adoption",
+    "image": "./Screenshot 2025-01-05 012459.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "livelink": "https://lighthearted-dolphin-cbf4ed.netlify.app",
+    "githublink": "https://github.com/jui9797/pet-adoption",
+    "description": "Every year, thousands of animals find themselves in shelters, longing for a safe and loving home. Our mission is to bridge the gap between compassionate individuals like you and pets in need. With an extensive database of adoptable animals, our website makes it easier than ever to find your new best friend.We believe in creating a transparent and supportive adoption experience. Our team collaborates with trusted shelters and rescue organizations to ensure every pet listed on our site is healthy, well-cared-for, and ready for adoption.At Pet Adoption, we also provide resources to support pet parents throughout their journey. From training tips to health care advice, we’re here to help you build a loving bond with your new furry family member.",
+    "date": "2024-08-10",
+    "author": "Juiena",
+    "category": "Frontend Development",
+    "update": "This is frontend based project , need to make server for this project.",
+    "FuturePlan": "In future I should make this website full responsive , userfriendly, also connect with database."
+  },
+  {
+    "id": 4,
+    "title": "Xynexa - Team Collaboration Tool",
+    "image": "./Screenshot 2025-05-31 201105.png",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Next.js",
+      "Socket.io",
+      "Redux"
+    ],
+    "livelink": "https://xynexa.vercel.app",
+    "githublink": "https://github.com/mdabdulkyum1/xynexa",
+    "description": "Xynexa is an advanced team collaboration platform crafted to elevate productivity, foster seamless communication, and streamline task management across teams of any scale. Whether you're part of a startup or a large enterprise, Xynexa brings your entire workflow into one unified digital workspace.With features like real-time messaging, intelligent task tracking, secure file sharing, and AI-powered insights, Xynexa empowers teams to work smarter and faster. The platform adapts to your team's unique needs, offering tools for project planning, progress monitoring, and performance analysis — all while promoting transparency and accountability.By centralizing communication and enhancing operational efficiency, Xynexa helps teams stay aligned, reduce bottlenecks, and achieve their goals with clarity and confidence. Whether you're managing remote teams or coordinating in-house departments, Xynexa is the all-in-one solution designed for the future of work.",
+    "date": "2025-03-12 to 2025-05-10",
+    "author": "Juiena(member)",
+    "category": "SAAS",
+    "update": "Develop a mobile app version for better on-the-go collaboration.Add custom role-based access control for improved team and project security.",
+    "FuturePlan": "Launch a premium plan with advanced features and analytics for enterprise teams.Enhance AI capabilities for smarter task suggestions, deadline predictions, and team productivity analytics.Implement calendar synchronization with Google Calendar and Outlook for better scheduling."
+  }
 ]
