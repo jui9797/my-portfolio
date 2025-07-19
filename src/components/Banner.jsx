@@ -25,7 +25,7 @@ const Banner = () => {
               Welcome! I’m Juiena Parvin
             </h1>
             <p className="py-6 dark:text-dark-secondary">
-              A Passionate Web Developer Who Loves Building Websites That Make a
+              A crafter Web Developer Who Loves Building Websites That Make a
               Difference.
             </p>
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
