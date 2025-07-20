@@ -22,10 +22,10 @@ const Banner = () => {
         <div className="hero-content text-center flex flex-col lg:flex-row lg:gap-28">
           <div className="max-w-lg ">
             <h1 className="p-4 text-3xl lg:text-6xl font-bold text-light-text dark:text-dark-text">
-              Welcome! I’m Juiena Parvin
+              Hey! This is Juiena Parvin
             </h1>
             <p className="py-6 dark:text-dark-secondary">
-              A crafter Web Developer Who Loves Building Websites That Make a
+              A passinated Web Developer Who Loves Building Websites That Make
               Difference.
             </p>
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
