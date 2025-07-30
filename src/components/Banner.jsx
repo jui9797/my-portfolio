@@ -62,7 +62,7 @@ const Banner = () => {
                   href="https://drive.google.com/file/d/1oVcq5cM1KjVo70EUve_3TquNVGmUGZah/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 bg-blue-500 text-white dark:bg-transparent dark:border-2 dark:text-gray-300 rounded-md font-semibold  transition-all shadow-md"
+                  className="btn flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 bg-purple-500 text-black dark:bg-transparent dark:border-2 dark:text-gray-300 rounded-md font-semibold  transition-all shadow-md"
                 >
                   <span className="text-xl font-bold">
                     <CiViewList />
