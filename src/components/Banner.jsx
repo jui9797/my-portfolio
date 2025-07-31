@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 // import profileImg from '../assets/portfolio-img.png'
 // import { motion } from "framer-motion";
 import "./Banner.css";
-import { CiViewList } from "react-icons/ci";
 
 const Banner = () => {
   useEffect(() => {
@@ -25,17 +24,18 @@ const Banner = () => {
               Hey! This is Juiena Parvin
             </h1>
 
-            <p className="py-6 dark:text-dark-secondary">
-              A passinated Web Developer Who Loves Building Websites That Make
-              Difference from others.
+            <p className="py-8 dark:text-dark-secondary">
+              A dedicated, creative, and detail-oriented Web Developer who
+              enjoys crafting impactful, responsive websites that truly stand
+              out from the rest.
             </p>
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <div className="flex gap-4 lg:gap-6">
+              <div className="flex justify-center items-center gap-4 lg:gap-6 mb-8 md:mb-0">
                 <a
                   href="https://www.linkedin.com/in/juiena-parvin-529105310/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl md:text-3xl lg:text-4xl text-blue-600 hover:text-blue-800 dark:text-dark-secondary transition"
+                  className="text-3xl  lg:text-5xl text-blue-600 hover:text-blue-800 transition"
                 >
                   <FaLinkedin />
                 </a>
@@ -43,7 +43,7 @@ const Banner = () => {
                   href="https://github.com/jui9797"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl md:text-3xl lg:text-4xl text-gray-800 hover:text-black dark:text-dark-secondary transition"
+                  className="text-3xl  lg:text-5xl text-gray-800 hover:text-black dark:text-dark-secondary transition"
                 >
                   <FaGithub />
                 </a>
@@ -51,23 +51,21 @@ const Banner = () => {
                   href="https://www.facebook.com/profile.php?id=100055737878584"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl md:text-3xl lg:text-4xl text-blue-500 hover:text-blue-700 dark:text-dark-secondary transition"
+                  className="text-3xl  lg:text-5xl text-blue-500 hover:text-blue-700 transition"
                 >
                   <FaFacebookSquare />
                 </a>
               </div>
 
-              <div className="flex justify-center">
+              <div className="">
                 <a
                   href="https://drive.google.com/file/d/1oVcq5cM1KjVo70EUve_3TquNVGmUGZah/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 bg-purple-500 text-black dark:bg-transparent dark:border-2 dark:text-gray-300 rounded-md font-semibold  transition-all shadow-md"
+                  className="fancy-button "
                 >
-                  <span className="text-xl font-bold">
-                    <CiViewList />
-                  </span>{" "}
-                  View Resume
+                  <span className="fancy-gradient"></span>
+                  <span className=" text-white ">View Resume</span>{" "}
                 </a>
               </div>
             </div>
