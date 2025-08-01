@@ -2,9 +2,7 @@ import { useState, useEffect } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 
 const ThemeToggle = () => {
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme") || "light"
-  );
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
   useEffect(() => {
     const root = window.document.documentElement;
@@ -28,11 +26,11 @@ const ThemeToggle = () => {
     >
       {theme === "light" ? (
         <>
-          <FaMoon /> 
+          <FaMoon />
         </>
       ) : (
         <>
-          <FaSun /> 
+          <FaSun />
         </>
       )}
     </button>
