@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "StudyHive",
-    "image": "./Screenshot 2025-01-05 021740.png",
+    "image": "https://i.ibb.co/xqk9HnYr/Screenshot-2025-01-05-021740.png",
     "technologies": ["React", "Node.js", "MongoDB", "CSS", "Express"],
     "livelink": "https://assignment-11-client-c292f.web.app",
     "githublink": "https://github.com/jui9797/study-hive-client",
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "title": "Trendify",
-    "image": "./Screenshot 2025-02-07 035617.png",
+    "image": "https://i.ibb.co/QFqhFZtb/Screenshot-2025-02-07-035617.png",
     "technologies": ["React", "Node.js", "MongoDB", "CSS", "Express"],
     "livelink": "https://trendify-57be1.web.app",
     "githublink": "https://github.com/jui9797/newspaper-project",
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "title": "Pet Adoption",
-    "image": "./Screenshot 2025-01-05 012459.png",
+    "image": "https://i.ibb.co/WvNQXn83/Screenshot-2025-01-05-012459.png",
     "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
     "livelink": "https://lighthearted-dolphin-cbf4ed.netlify.app",
     "githublink": "https://github.com/jui9797/pet-adoption",
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "title": "Xynexa - Team Collaboration Tool",
-    "image": "./Screenshot 2025-05-31 201105.png",
+    "image": "https://i.ibb.co/WNdLXZbD/Screenshot-2025-05-31-201105.png",
     "technologies": [
       "HTML",
       "CSS",

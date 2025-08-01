@@ -57,7 +57,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-10 px-5 lg:px-20 bg-gray-50 dark:bg-transparent text-gray-800"
+      className="py-10 px-5 lg:px-20 rounded-lg bg-gray-50 dark:bg-transparent text-gray-800 "
     >
       <div className="container mx-auto">
         <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-blue-600">
@@ -65,7 +65,7 @@ const Skills = () => {
         </h2>
 
         {/* Tabs */}
-        <div className="flex justify-center gap-4 mb-6">
+        <div className="flex justify-center gap-4 mb-6 lg:mb-12">
           {["Frontend", "Backend", "Tools"].map((tab) => (
             <button
               key={tab}
