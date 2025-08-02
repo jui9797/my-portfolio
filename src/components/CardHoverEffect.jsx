@@ -9,7 +9,7 @@ export const HoverEffect = ({ items, className }) => {
 
   return (
     <div
-      className={cn("grid grid-cols-1 md:grid-cols-2 gap-8 py-4", className)}
+      className={cn("grid grid-cols-1 md:grid-cols-2 gap-6 py-4", className)}
     >
       {items.map((item, idx) => (
         <a
@@ -22,7 +22,7 @@ export const HoverEffect = ({ items, className }) => {
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-fullbg-blue-600 block  rounded-lg"
+                className="absolute inset-0 h-full w-full bg-gradient-to-b from-blue-700 via-transparent to-blue-700 block  rounded-lg"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -47,7 +47,7 @@ export const Card = ({ item, className }) => {
   return (
     <div
       className={cn(
-        "relative rounded-lg h-[300px] overflow-hidden shadow-lg group transition-transform duration-300 hover:scale-[1.02]  dark:border-white/[0.1]",
+        "relative rounded-lg h-[250px] lg:h-[300px] overflow-hidden shadow-lg group transition-transform duration-300 hover:scale-[1.02]  dark:border-white/[0.1] m-2",
         className
       )}
     >
@@ -56,18 +56,16 @@ export const Card = ({ item, className }) => {
         style={{ backgroundImage: `url(${item?.image})` }}
       ></div>
 
-      <div className="absolute inset-0 bg-black/40 dark:bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/50 dark:bg-black/60"></div>
 
-      <div className="relative z-10 p-5 h-full flex flex-col justify-between">
+      <div className="relative z-10 p-5 h-full flex  justify-between">
         <h2 className="text-xl font-semibold text-white">{item?.title}</h2>
 
-        <div className="flex gap-10 ">
-          <button className="before:ease relative h-12 w-20 overflow-hidden border border-blue-500 text-blue-500 shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-blue-500 before:duration-300 hover:text-white hover:shadow-blue-500 hover:before:h-64 hover:before:-translate-y-32 rounded-lg">
-            <span className="relative z-10">
-              <Link to={`/projects/${item?.id}`}>Details</Link>
-            </span>
+        <div className="flex flex-col gap-2 justify-start items-end ">
+          <button className="buttonBlue">
+            <Link to={`/projects/${item?.id}`}>Details</Link>
           </button>
-          <button className="relative flex h-[50px] w-16 items-center justify-center overflow-hidden bg-blue-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-blue-600 hover:shadow-blue-600 hover:before:border-[25px] rounded-lg">
+          <button className="relative flex h-[40px] w-16 items-center justify-center overflow-hidden bg-[#006BB3] font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-blue-600 hover:shadow-blue-600 hover:before:border-[25px] rounded-lg">
             <span className="relative z-10">
               <Link target="_blank" to={item?.livelink}>
                 Live

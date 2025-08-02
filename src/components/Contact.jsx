@@ -76,7 +76,7 @@ const Contact = () => {
                   id="name"
                   name="from_name"
                   required
-                  className="mt-2 block w-full px-4 py-2 border  focus:ring-2 focus:ring-blue-500 bg-transparent"
+                  className="mt-2 block w-full px-4 py-2 border  focus:ring-2 focus:ring-blue-500 bg-transparent rounded-lg"
                 />
               </div>
               <div>
@@ -91,7 +91,7 @@ const Contact = () => {
                   id="email"
                   name="from_email"
                   required
-                  className="mt-2 block w-full px-4 py-2 border bg-transparent focus:ring-2 focus:ring-blue-500"
+                  className="mt-2 block w-full px-4 py-2 border bg-transparent focus:ring-2 focus:ring-blue-500 rounded-lg"
                 />
               </div>
 
@@ -107,7 +107,7 @@ const Contact = () => {
                   name="message"
                   required
                   rows="4"
-                  className="mt-2 block w-full px-4 py-2 border bg-transparent focus:ring-2 focus:ring-blue-500"
+                  className="mt-2 block w-full px-4 py-2 border bg-transparent focus:ring-2 focus:ring-blue-500 rounded-lg"
                 />
               </div>
 
@@ -131,7 +131,7 @@ const Contact = () => {
                 Naogaon, Bangladesh.
               </p>
             </div>
-            <div className=" border-2 p-2 pl-4 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+            <div className=" border-2 p-2 pl-4 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 rounded-lg">
               <h4 className="font-semibold text-blue-500 flex gap-2 items-center ">
                 Email <MdEmail />
               </h4>
@@ -140,7 +140,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className=" border-2 p-2 pl-4 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+            <div className=" border-2 p-2 pl-4 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 rounded-lg">
               <h4 className="font-semibold text-blue-500 flex gap-2 items-center ">
                 Phone <FaPhoneAlt />
               </h4>
@@ -149,7 +149,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className=" border-2 p-2 pl-4 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+            <div className=" border-2 p-2 pl-4 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 rounded-lg">
               <h4 className="font-semibold text-blue-500 flex gap-2 items-center ">
                 WhatsApp <FaWhatsapp />
               </h4>
@@ -166,7 +166,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/in/juiena-parvin-529105310/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl lg:text-3xl text-blue-600 hover:text-blue-800 transition"
+                  className="text-2xl lg:text-4xl text-blue-600 hover:text-blue-800 transition"
                 >
                   <FaLinkedin />
                 </a>
@@ -174,7 +174,7 @@ const Contact = () => {
                   href="https://github.com/jui9797"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl lg:text-3xl text-gray-800 hover:text-black transition dark:text-gray-300"
+                  className="text-2xl lg:text-4xl text-gray-800 hover:text-black transition dark:text-gray-300"
                 >
                   <FaGithub />
                 </a>
@@ -182,7 +182,7 @@ const Contact = () => {
                   href="https://www.facebook.com/profile.php?id=100055737878584"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl lg:text-3xl text-blue-500 hover:text-blue-700 transition"
+                  className="text-2xl lg:text-4xl text-blue-500 hover:text-blue-700 transition"
                 >
                   <FaFacebookSquare />
                 </a>
