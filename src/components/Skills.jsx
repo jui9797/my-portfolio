@@ -8,7 +8,7 @@ import nodeImg from "../assets/nodejs.png";
 import exImg from "../assets/icons8-express-js-50.png";
 import daisyImg from "../assets/daisy.png";
 import mongoImg from "../assets/leaf.png";
-import tailwindImg from "../assets/tailwind.png";
+import tailwindImg from "../assets/tail-removebg-preview.png";
 import vsImg from "../assets/vs.png";
 import gitImg from "../assets/git.png";
 import githubImg from "../assets/github.png";
@@ -45,6 +45,7 @@ const allSkills = [
   { name: "figma", img: figma, category: "Tools" },
   { name: "Vite", img: viteImg, category: "Tools" },
   { name: "Firebase", img: firebase, category: "Tools" },
+  { name: "Canva", img: canva, category: "Tools" },
 ];
 
 const Skills = () => {
@@ -57,7 +58,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-10 px-5 lg:px-20 rounded-lg bg-gray-50 dark:bg-transparent text-gray-800 "
+      className="py-10 px-5 lg:px-20 rounded-lg bg-gray-50  dark:bg-transparent text-gray-800 "
     >
       <div className="container mx-auto">
         <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-blue-600">
@@ -86,7 +87,7 @@ const Skills = () => {
           {filteredSkills.map((skill, index) => (
             <div
               key={index}
-              className="card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-indigo-200"
+              className={`card example-5 justify-center items-center flex-col dark:text-blue-800 bg-indigo-100 dark:bg-transparent dark:border-2 dark:border-gray-800 `}
             >
               <svg
                 height="100%"
@@ -104,7 +105,13 @@ const Skills = () => {
               </svg>
               <div className="inner">
                 <img
-                  className="w-16 h-16 m-4 dark:bg-gray-200"
+                  className={`w-16 h-16 m-4 ${
+                    ["Next.js", "Express.js", "GitHub", "npm"].includes(
+                      skill.name
+                    )
+                      ? "dark:bg-white"
+                      : ""
+                  }`}
                   src={skill.img}
                   alt={skill.name}
                 />
